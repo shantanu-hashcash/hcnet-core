@@ -1,8 +1,7 @@
-soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=1f0d10f508c4f3b795e1c829dc0c7108d61bccb1#1f0d10f508c4f3b795e1c829dc0c7108d61bccb1
+soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=4c051aba140465905e6e559b94bea6165dd514b7#4c051aba140465905e6e559b94bea6165dd514b7
 ├── tracy-client 0.15.2 checksum:434ecabbda9f67eeea1eab44d52f4a20538afa3e2c2770f2efc161142b25b608
 │   ├── tracy-client-sys 0.21.2 checksum:2cb915ea3af048554640d76dd6f1492589a6401a41a30d789b983c1ec280455a
-│   │   └── cc 1.0.83 checksum:f1174fb0b6ec23863f8b971027804a42614e347eafb0a95bf0b12cdae21fc4d0
-│   │       └── libc 0.2.153 checksum:9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd
+│   │   └── cc 1.0.90 checksum:8cd6604a82acf3039f1144f54b8eb34e91ffba622051189e71b781822d5ee1f5
 │   ├── once_cell 1.19.0 checksum:3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92
 │   └── loom 0.5.6 checksum:ff50ecb28bb86013e935fb6683ab1f6d3a20016f123c76fd4c27470076ac30f5
 │       ├── tracing-subscriber 0.3.18 checksum:ad0f048c97dbd9faa9b7df56362b8ebcaa52adb06b498c050d2f4e32f90a7a8b
@@ -25,7 +24,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │       │   │   │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │       │   │   │   └── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
 │       │   │   └── pin-project-lite 0.2.13 checksum:8afb450f006bf6385ca15ef45d71d2288452bc3683ce2e2cacc0d18e4be60b58
-│       │   ├── thread_local 1.1.7 checksum:3fdd6f064ccff2d6567adcb3873ca630700f00b5ad3f060c25b5dcfd9a4ce152
+│       │   ├── thread_local 1.1.8 checksum:8b9ef9bad013ada3808854ceac7b46812a6465ba368859a37e2100283d2d719c
 │       │   │   ├── once_cell 1.19.0 checksum:3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92
 │       │   │   └── cfg-if 1.0.0 checksum:baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd
 │       │   ├── smallvec 1.13.1 checksum:e6ecd384b10a64542d77071bd64bd7b231f4ed5940fba55e98c3de13824cf3d7
@@ -33,13 +32,13 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │       │   │   └── lazy_static 1.4.0 checksum:e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646
 │       │   ├── regex 1.10.3 checksum:b62dbe01f0b06f9d8dc7d49e05a0785f153b00b2c227856282f671e0318c9b15
 │       │   │   ├── regex-syntax 0.8.2 checksum:c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f
-│       │   │   ├── regex-automata 0.4.5 checksum:5bb987efffd3c6d0d8f5f89510bb458559eab11e4f869acb20bf845e016259cd
+│       │   │   ├── regex-automata 0.4.6 checksum:86b83b8b9847f9bf95ef68afb0b8e6cdb80f498442f5179a29fad448fcc1eaea
 │       │   │   │   ├── regex-syntax 0.8.2 checksum:c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f
 │       │   │   │   ├── memchr 2.7.1 checksum:523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149
-│       │   │   │   └── aho-corasick 1.1.2 checksum:b2969dcb958b36655471fc61f7e416fa76033bdd4bfed0678d8fee1e2d07a1f0
+│       │   │   │   └── aho-corasick 1.1.3 checksum:8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916
 │       │   │   │       └── memchr 2.7.1 checksum:523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149
 │       │   │   ├── memchr 2.7.1 checksum:523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149
-│       │   │   └── aho-corasick 1.1.2 checksum:b2969dcb958b36655471fc61f7e416fa76033bdd4bfed0678d8fee1e2d07a1f0
+│       │   │   └── aho-corasick 1.1.3 checksum:8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916
 │       │   ├── once_cell 1.19.0 checksum:3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92
 │       │   ├── nu-ansi-term 0.46.0 checksum:77a8165726e8236064dbb45459242600304b42a5ea24ee2948e18e023bf7ba84
 │       │   │   ├── winapi 0.3.9 checksum:5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419
@@ -64,7 +63,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │       │   ├── rustversion 1.0.14 checksum:7ffc183a10b4478d04cbbbfc96d0873219d962dd5accaff2ffbd4ceb7df837f4
 │       │   ├── log 0.4.19 checksum:b06a4cde4c0f271a446782e3eff8de789548ce57dbc8eca9292c27f4a42004b4
 │       │   ├── libc 0.2.153 checksum:9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd
-│       │   └── cc 1.0.83 checksum:f1174fb0b6ec23863f8b971027804a42614e347eafb0a95bf0b12cdae21fc4d0
+│       │   └── cc 1.0.90 checksum:8cd6604a82acf3039f1144f54b8eb34e91ffba622051189e71b781822d5ee1f5
 │       └── cfg-if 1.0.0 checksum:baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd
 ├── static_assertions 1.1.0 checksum:a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f
 ├── soroban-wasmi 0.31.1-soroban.20.0.1 git+https://github.com/HashCash-Consultants/wasmi?rev=2329ceae38c43c15607d71474d7be7776f428b3c#2329ceae38c43c15607d71474d7be7776f428b3c
@@ -79,11 +78,11 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   ├── wasmi_arena 0.4.0 git+https://github.com/HashCash-Consultants/wasmi?rev=2329ceae38c43c15607d71474d7be7776f428b3c#2329ceae38c43c15607d71474d7be7776f428b3c
 │   ├── spin 0.9.8 checksum:6980e8d7511241f8acf4aebddbb1ff938df5eebe98691418c4468d0b72a96a67
 │   └── smallvec 1.13.1 checksum:e6ecd384b10a64542d77071bd64bd7b231f4ed5940fba55e98c3de13824cf3d7
-├── soroban-env-common 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=1f0d10f508c4f3b795e1c829dc0c7108d61bccb1#1f0d10f508c4f3b795e1c829dc0c7108d61bccb1
+├── soroban-env-common 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=4c051aba140465905e6e559b94bea6165dd514b7#4c051aba140465905e6e559b94bea6165dd514b7
 │   ├── tracy-client 0.15.2 checksum:434ecabbda9f67eeea1eab44d52f4a20538afa3e2c2770f2efc161142b25b608
 │   ├── static_assertions 1.1.0 checksum:a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f
 │   ├── soroban-wasmi 0.31.1-soroban.20.0.1 git+https://github.com/HashCash-Consultants/wasmi?rev=2329ceae38c43c15607d71474d7be7776f428b3c#2329ceae38c43c15607d71474d7be7776f428b3c
-│   ├── soroban-env-macros 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=1f0d10f508c4f3b795e1c829dc0c7108d61bccb1#1f0d10f508c4f3b795e1c829dc0c7108d61bccb1
+│   ├── soroban-env-macros 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=4c051aba140465905e6e559b94bea6165dd514b7#4c051aba140465905e6e559b94bea6165dd514b7
 │   │   ├── syn 2.0.39 checksum:23e78b90f2fcf45d3e842032ce32e3f2d1545ba6636271dcbf24fa306d87be7a
 │   │   ├── serde_json 1.0.108 checksum:3d1c7e3eac408d115102c4c24ad393e0821bb3a5df4d506a80f85f7a742a526b
 │   │   │   ├── serde 1.0.192 checksum:bca2a08484b285dcb282d0f67b26cadc0df8b19f8c12502c13d966bf9482f001
@@ -91,14 +90,14 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   │   │   │       ├── syn 2.0.39 checksum:23e78b90f2fcf45d3e842032ce32e3f2d1545ba6636271dcbf24fa306d87be7a
 │   │   │   │       ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   │   │   │       └── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
-│   │   │   ├── ryu 1.0.16 checksum:f98d2aa92eebf49b69786be48e4477826b256916e84a57ff2a4f21923b48eb4c
+│   │   │   ├── ryu 1.0.17 checksum:e86697c916019a8588c99b5fac3cead74ec0b4b819707a682fd4d23fa0ce1ba1
 │   │   │   └── itoa 1.0.10 checksum:b1a46d1a171d865aa5f83f92695765caa047a9b4cbae2cbf37dbd613a793fd4c
 │   │   ├── serde 1.0.192 checksum:bca2a08484b285dcb282d0f67b26cadc0df8b19f8c12502c13d966bf9482f001
 │   │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   │   ├── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
 │   │   ├── itertools 0.11.0 checksum:b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57
-│   │   │   └── either 1.9.0 checksum:a26ae43d7bcc3b814de94796a5e736d4029efb0ee900c12e2d54c993ad1a1e07
-│   │   └── hcnet-xdr 20.0.3 git+https://github.com/HashCash-Consultants/rs-hcnet-xdr?rev=bc19f448db1bb6466b83976a89c0472587166582#bc19f448db1bb6466b83976a89c0472587166582
+│   │   │   └── either 1.10.0 checksum:11157ac094ffbdde99aa67b23417ebdd801842852b500e395a45a9c0aac03e4a
+│   │   └── hcnet-xdr 20.0.4 git+https://github.com/HashCash-Consultants/rs-hcnet-xdr?rev=bb9eef6c2807f8504b983a8e1230a9c753bb6b14#bb9eef6c2807f8504b983a8e1230a9c753bb6b14
 │   │       ├── hex 0.4.3 checksum:7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70
 │   │       ├── hcnet-strkey 0.0.8 checksum:f9ccacb9060c0b026017c9b2267ddb5f67d6566f7221be05fe2ec732be89f360
 │   │       │   ├── thiserror 1.0.55 checksum:6e3de26b0965292219b4287ff031fcba86837900fe9cd2b34ea8ad893c0953d2
@@ -119,10 +118,10 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   │   ├── syn 2.0.39 checksum:23e78b90f2fcf45d3e842032ce32e3f2d1545ba6636271dcbf24fa306d87be7a
 │   │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   │   └── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
-│   ├── hcnet-xdr 20.0.3 git+https://github.com/HashCash-Consultants/rs-hcnet-xdr?rev=bc19f448db1bb6466b83976a89c0472587166582#bc19f448db1bb6466b83976a89c0472587166582
+│   ├── hcnet-xdr 20.0.4 git+https://github.com/HashCash-Consultants/rs-hcnet-xdr?rev=bb9eef6c2807f8504b983a8e1230a9c753bb6b14#bb9eef6c2807f8504b983a8e1230a9c753bb6b14
 │   ├── ethnum 1.5.0 checksum:b90ca2580b73ab6a1f724b76ca11ab632df820fd6040c336200d2c1df7b3c82c
 │   └── crate-git-revision 0.0.6 checksum:c521bf1f43d31ed2f73441775ed31935d77901cb3451e44b38a1c1612fcbaf98
-├── soroban-builtin-sdk-macros 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=1f0d10f508c4f3b795e1c829dc0c7108d61bccb1#1f0d10f508c4f3b795e1c829dc0c7108d61bccb1
+├── soroban-builtin-sdk-macros 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-env?rev=4c051aba140465905e6e559b94bea6165dd514b7#4c051aba140465905e6e559b94bea6165dd514b7
 │   ├── syn 2.0.39 checksum:23e78b90f2fcf45d3e842032ce32e3f2d1545ba6636271dcbf24fa306d87be7a
 │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   ├── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
@@ -149,18 +148,18 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 ├── rand_chacha 0.3.1 checksum:e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88
 │   ├── rand_core 0.6.4 checksum:ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c
 │   │   └── getrandom 0.2.11 checksum:fe9006bed769170c11f845cf00c7c1e9092aeb3f268e007c3e760ac68008070f
-│   │       ├── wasm-bindgen 0.2.91 checksum:c1e124130aee3fb58c5bdd6b639a0509486b0338acaaae0c84a5124b0f588b7f
-│   │       │   ├── wasm-bindgen-macro 0.2.91 checksum:b30af9e2d358182b5c7449424f017eba305ed32a7010509ede96cdc4696c46ed
-│   │       │   │   ├── wasm-bindgen-macro-support 0.2.91 checksum:642f325be6301eb8107a83d12a8ac6c1e1c54345a7ef1a9261962dfefda09e66
-│   │       │   │   │   ├── wasm-bindgen-shared 0.2.91 checksum:4f186bd2dcf04330886ce82d6f33dd75a7bfcf69ecf5763b89fcde53b6ac9838
-│   │       │   │   │   ├── wasm-bindgen-backend 0.2.91 checksum:c9e7e1900c352b609c8488ad12639a311045f40a35491fb69ba8c12f758af70b
-│   │       │   │   │   │   ├── wasm-bindgen-shared 0.2.91 checksum:4f186bd2dcf04330886ce82d6f33dd75a7bfcf69ecf5763b89fcde53b6ac9838
+│   │       ├── wasm-bindgen 0.2.92 checksum:4be2531df63900aeb2bca0daaaddec08491ee64ceecbee5076636a3b026795a8
+│   │       │   ├── wasm-bindgen-macro 0.2.92 checksum:a1f8823de937b71b9460c0c34e25f3da88250760bec0ebac694b49997550d726
+│   │       │   │   ├── wasm-bindgen-macro-support 0.2.92 checksum:e94f17b526d0a461a191c78ea52bbce64071ed5c04c9ffe424dcb38f74171bb7
+│   │       │   │   │   ├── wasm-bindgen-shared 0.2.92 checksum:af190c94f2773fdb3729c55b007a722abb5384da03bc0986df4c289bf5567e96
+│   │       │   │   │   ├── wasm-bindgen-backend 0.2.92 checksum:614d787b966d3989fa7bb98a654e369c762374fd3213d212cfc0251257e747da
+│   │       │   │   │   │   ├── wasm-bindgen-shared 0.2.92 checksum:af190c94f2773fdb3729c55b007a722abb5384da03bc0986df4c289bf5567e96
 │   │       │   │   │   │   ├── syn 2.0.39 checksum:23e78b90f2fcf45d3e842032ce32e3f2d1545ba6636271dcbf24fa306d87be7a
 │   │       │   │   │   │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   │       │   │   │   │   ├── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
 │   │       │   │   │   │   ├── once_cell 1.19.0 checksum:3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92
 │   │       │   │   │   │   ├── log 0.4.19 checksum:b06a4cde4c0f271a446782e3eff8de789548ce57dbc8eca9292c27f4a42004b4
-│   │       │   │   │   │   └── bumpalo 3.14.0 checksum:7f30e7476521f6f8af1a1c4c0b8cc94f0bee37d91763d0ca2665f299b6cd8aec
+│   │       │   │   │   │   └── bumpalo 3.15.4 checksum:7ff69b9dd49fd426c69a0db9fc04dd934cdb6645ff000864d98f7e2af8830eaa
 │   │       │   │   │   ├── syn 2.0.39 checksum:23e78b90f2fcf45d3e842032ce32e3f2d1545ba6636271dcbf24fa306d87be7a
 │   │       │   │   │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   │       │   │   │   └── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
@@ -168,8 +167,8 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   │       │   └── cfg-if 1.0.0 checksum:baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd
 │   │       ├── wasi 0.11.0+wasi-snapshot-preview1 checksum:9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423
 │   │       ├── libc 0.2.153 checksum:9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd
-│   │       ├── js-sys 0.3.68 checksum:406cda4b368d531c842222cf9d2600a9a4acce8d29423695379c6868a143a9ee
-│   │       │   └── wasm-bindgen 0.2.91 checksum:c1e124130aee3fb58c5bdd6b639a0509486b0338acaaae0c84a5124b0f588b7f
+│   │       ├── js-sys 0.3.69 checksum:29c15563dc2726973df627357ce0c9ddddbea194836909d655df6a75d2cf296d
+│   │       │   └── wasm-bindgen 0.2.92 checksum:4be2531df63900aeb2bca0daaaddec08491ee64ceecbee5076636a3b026795a8
 │   │       └── cfg-if 1.0.0 checksum:baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd
 │   └── ppv-lite86 0.2.17 checksum:5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de
 ├── rand 0.8.5 checksum:34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404
@@ -250,7 +249,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │       │   └── semver 1.0.20 checksum:836fa6a3e1e547f9a2c4040802ec865b5d85f4014efe00555d7090a3dcaa1090
 │       │       └── serde 1.0.192 checksum:bca2a08484b285dcb282d0f67b26cadc0df8b19f8c12502c13d966bf9482f001
 │       ├── platforms 3.3.0 checksum:626dec3cac7cc0e1577a2ec3fc496277ec2baa084bebad95bb6fdbfae235f84c
-│       ├── fiat-crypto 0.2.6 checksum:1676f435fc1dadde4d03e43f5d62b259e1ce5f40bd4ffb21db2b42ebe59c1382
+│       ├── fiat-crypto 0.2.7 checksum:c007b1ae3abe1cb6f85a16305acd418b7ca6343b953633fee2b76d8f108b830f
 │       ├── digest 0.10.7 checksum:9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292
 │       ├── curve25519-dalek-derive 0.1.1 checksum:f46882e17999c6cc590af592290432be3bce0428cb0d5f8b6715e4dc7b383eb3
 │       │   ├── syn 2.0.39 checksum:23e78b90f2fcf45d3e842032ce32e3f2d1545ba6636271dcbf24fa306d87be7a

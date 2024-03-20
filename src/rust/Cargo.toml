@@ -35,7 +35,7 @@ toml = "=0.7.8"
 version = "=20.1.1"
 git = "https://github.com/HashCash-Consultants/rs-soroban-env"
 package = "soroban-env-host"
-rev = "1f0d10f508c4f3b795e1c829dc0c7108d61bccb1"
+rev = "4c051aba140465905e6e559b94bea6165dd514b7"
 
 # This copy of the soroban host is _optional_ and only enabled during protocol
 # transitions. When transitioning from protocol N to N+1, the `curr` copy
@@ -58,12 +58,12 @@ rev = "1f0d10f508c4f3b795e1c829dc0c7108d61bccb1"
 [dependencies.soroban-test-wasms]
 version = "=20.1.1"
 git = "https://github.com/HashCash-Consultants/rs-soroban-env"
-rev = "1f0d10f508c4f3b795e1c829dc0c7108d61bccb1"
+rev = "4c051aba140465905e6e559b94bea6165dd514b7"
 
 [dependencies.soroban-synth-wasm]
 version = "=20.1.1"
 git = "https://github.com/HashCash-Consultants/rs-soroban-env"
-rev = "1f0d10f508c4f3b795e1c829dc0c7108d61bccb1"
+rev = "4c051aba140465905e6e559b94bea6165dd514b7"
 
 [dependencies.cargo-lock]
 version = "=9.0.0"
