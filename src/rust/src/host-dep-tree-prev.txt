@@ -23,21 +23,21 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │       │   │   │   │   └── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
 │       │   │   │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │       │   │   │   └── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
-│       │   │   └── pin-project-lite 0.2.13 checksum:8afb450f006bf6385ca15ef45d71d2288452bc3683ce2e2cacc0d18e4be60b58
+│       │   │   └── pin-project-lite 0.2.14 checksum:bda66fc9667c18cb2758a2ac84d1167245054bcf85d5d1aaa6923f45801bdd02
 │       │   ├── thread_local 1.1.8 checksum:8b9ef9bad013ada3808854ceac7b46812a6465ba368859a37e2100283d2d719c
 │       │   │   ├── once_cell 1.19.0 checksum:3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92
 │       │   │   └── cfg-if 1.0.0 checksum:baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd
 │       │   ├── smallvec 1.13.2 checksum:3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67
 │       │   ├── sharded-slab 0.1.7 checksum:f40ca3c46823713e0d4209592e8d6e826aa57e928f09752619fc696c499637f6
 │       │   │   └── lazy_static 1.4.0 checksum:e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646
-│       │   ├── regex 1.10.3 checksum:b62dbe01f0b06f9d8dc7d49e05a0785f153b00b2c227856282f671e0318c9b15
-│       │   │   ├── regex-syntax 0.8.2 checksum:c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f
+│       │   ├── regex 1.10.4 checksum:c117dbdfde9c8308975b6a18d71f3f385c89461f7b3fb054288ecf2a2058ba4c
+│       │   │   ├── regex-syntax 0.8.3 checksum:adad44e29e4c806119491a7f06f03de4d1af22c3a680dd47f1e6e179439d1f56
 │       │   │   ├── regex-automata 0.4.6 checksum:86b83b8b9847f9bf95ef68afb0b8e6cdb80f498442f5179a29fad448fcc1eaea
-│       │   │   │   ├── regex-syntax 0.8.2 checksum:c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f
-│       │   │   │   ├── memchr 2.7.1 checksum:523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149
+│       │   │   │   ├── regex-syntax 0.8.3 checksum:adad44e29e4c806119491a7f06f03de4d1af22c3a680dd47f1e6e179439d1f56
+│       │   │   │   ├── memchr 2.7.2 checksum:6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d
 │       │   │   │   └── aho-corasick 1.1.3 checksum:8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916
-│       │   │   │       └── memchr 2.7.1 checksum:523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149
-│       │   │   ├── memchr 2.7.1 checksum:523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149
+│       │   │   │       └── memchr 2.7.2 checksum:6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d
+│       │   │   ├── memchr 2.7.2 checksum:6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d
 │       │   │   └── aho-corasick 1.1.3 checksum:8e60d3430d3a69478ad0993f19238d2df97c507009a52b3c10addcd7f6bcb916
 │       │   ├── once_cell 1.19.0 checksum:3fdb12b2476b595f9358c5161aa467c2438859caa136dec86c26fdd2efe17b92
 │       │   ├── nu-ansi-term 0.46.0 checksum:77a8165726e8236064dbb45459242600304b42a5ea24ee2948e18e023bf7ba84
@@ -72,7 +72,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   ├── wasmi_core 0.13.0 git+https://github.com/HashCash-Consultants/wasmi?rev=2329ceae38c43c15607d71474d7be7776f428b3c#2329ceae38c43c15607d71474d7be7776f428b3c
 │   │   ├── paste 1.0.14 checksum:de3145af08024dea9fa9914f381a17b8fc6034dfb00f3a84013f7ff43f29ed4c
 │   │   ├── num-traits 0.2.17 checksum:39e3200413f237f41ab11ad6d161bc7239c84dcb631773ccd7de3dfe4b5c267c
-│   │   │   └── autocfg 1.1.0 checksum:d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa
+│   │   │   └── autocfg 1.2.0 checksum:f1fdabc7756949593fe60f30ec81974b613357de856987752631dea1e3394c80
 │   │   ├── libm 0.2.8 checksum:4ec2a862134d2a7d32d7983ddcdd1c4923530833c9f2ea1a44fc5fa473989058
 │   │   └── downcast-rs 1.2.0 checksum:9ea835d29036a4087793836fa931b08837ad5e957da9e23886b29586fb9b6650
 │   ├── wasmi_arena 0.4.0 git+https://github.com/HashCash-Consultants/wasmi?rev=2329ceae38c43c15607d71474d7be7776f428b3c#2329ceae38c43c15607d71474d7be7776f428b3c
@@ -91,7 +91,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   │   │   │       ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   │   │   │       └── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
 │   │   │   ├── ryu 1.0.17 checksum:e86697c916019a8588c99b5fac3cead74ec0b4b819707a682fd4d23fa0ce1ba1
-│   │   │   └── itoa 1.0.10 checksum:b1a46d1a171d865aa5f83f92695765caa047a9b4cbae2cbf37dbd613a793fd4c
+│   │   │   └── itoa 1.0.11 checksum:49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b
 │   │   ├── serde 1.0.192 checksum:bca2a08484b285dcb282d0f67b26cadc0df8b19f8c12502c13d966bf9482f001
 │   │   ├── quote 1.0.33 checksum:5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae
 │   │   ├── proc-macro2 1.0.69 checksum:134c189feb4956b20f6f547d2cf727d4c0fe06722b20a0eec87ed445a97f92da
@@ -178,7 +178,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 ├── num-traits 0.2.17 checksum:39e3200413f237f41ab11ad6d161bc7239c84dcb631773ccd7de3dfe4b5c267c
 ├── num-integer 0.1.45 checksum:225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9
 │   ├── num-traits 0.2.17 checksum:39e3200413f237f41ab11ad6d161bc7239c84dcb631773ccd7de3dfe4b5c267c
-│   └── autocfg 1.1.0 checksum:d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa
+│   └── autocfg 1.2.0 checksum:f1fdabc7756949593fe60f30ec81974b613357de856987752631dea1e3394c80
 ├── num-derive 0.4.1 checksum:cfb77679af88f8b125209d354a202862602672222e7f2313fdd6dc349bad4712
 ├── k256 0.13.1 checksum:cadb76004ed8e97623117f3df85b17aaa6626ab0b0831e6573f104df16cd1bcc
 │   ├── signature 2.2.0 checksum:77549399552de45a898a580c1b41d445bf730df867cc44e6c0233bbc4b8329de
@@ -194,13 +194,13 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   │   │   ├── subtle 2.5.0 checksum:81cdd64d312baedb58e21336b31bc043b77e01cc99033ce76ef539f78e965ebc
 │   │   │   ├── pkcs8 0.10.2 checksum:f950b2377845cebe5cf8b5165cb3cc1a5e0fa5cfa3e1f7f55707d8fd82e0a7b7
 │   │   │   │   ├── spki 0.7.3 checksum:d91ed6c858b01f942cd56b37a94b3e0a1798290327d1236e4d9cf4eaca44d29d
-│   │   │   │   │   ├── der 0.7.8 checksum:fffa369a668c8af7dbf8b5e56c9f744fbd399949ed171606040001947de40b1c
+│   │   │   │   │   ├── der 0.7.9 checksum:f55bf8e7b65898637379c1b74eb1551107c8294ed26d855ceb9fd1a09cfc9bc0
 │   │   │   │   │   │   ├── zeroize 1.7.0 checksum:525b4ec142c6b68a2d10f01f7bbf6755599ca3f81ea53b8431b7dd348f5fdb2d
 │   │   │   │   │   │   └── const-oid 0.9.6 checksum:c2459377285ad874054d797f3ccebf984978aa39129f6eafde5cdc8315b612f8
 │   │   │   │   │   └── base64ct 1.6.0 checksum:8c3c1a368f70d6cf7302d78f8f7093da241fb8e8807c05cc9e51a125895a6d5b
-│   │   │   │   └── der 0.7.8 checksum:fffa369a668c8af7dbf8b5e56c9f744fbd399949ed171606040001947de40b1c
+│   │   │   │   └── der 0.7.9 checksum:f55bf8e7b65898637379c1b74eb1551107c8294ed26d855ceb9fd1a09cfc9bc0
 │   │   │   ├── generic-array 0.14.7 checksum:85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a
-│   │   │   ├── der 0.7.8 checksum:fffa369a668c8af7dbf8b5e56c9f744fbd399949ed171606040001947de40b1c
+│   │   │   ├── der 0.7.9 checksum:f55bf8e7b65898637379c1b74eb1551107c8294ed26d855ceb9fd1a09cfc9bc0
 │   │   │   └── base16ct 0.2.0 checksum:4c7f02d4ea65f2c1853089ffd8d2787bdbc63de2f0d29dedbcf8ccdfa0ccd4cf
 │   │   ├── rand_core 0.6.4 checksum:ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c
 │   │   ├── pkcs8 0.10.2 checksum:f950b2377845cebe5cf8b5165cb3cc1a5e0fa5cfa3e1f7f55707d8fd82e0a7b7
@@ -228,7 +228,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │   │   │       └── digest 0.10.7 checksum:9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292
 │   │   ├── elliptic-curve 0.13.8 checksum:b5e6043086bf7973472e0c7dff2142ea0b680d30e18d9cc40f267efbf222bd47
 │   │   ├── digest 0.10.7 checksum:9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292
-│   │   └── der 0.7.8 checksum:fffa369a668c8af7dbf8b5e56c9f744fbd399949ed171606040001947de40b1c
+│   │   └── der 0.7.9 checksum:f55bf8e7b65898637379c1b74eb1551107c8294ed26d855ceb9fd1a09cfc9bc0
 │   └── cfg-if 1.0.0 checksum:baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd
 ├── hmac 0.12.1 checksum:6c49c37c09c17a53d937dfbb742eb3a961d65a994e6bcdcf37e7399d0cc8ab5e
 ├── hex-literal 0.4.1 checksum:6fe2267d4ed49bc07b63801559be28c718ea06c4738b7a03c94df7386d2cde46
@@ -248,7 +248,7 @@ soroban-env-host 20.1.1 git+https://github.com/HashCash-Consultants/rs-soroban-e
 │       ├── rustc_version 0.4.0 checksum:bfa0f585226d2e68097d4f95d113b15b83a82e819ab25717ec0590d9584ef366
 │       │   └── semver 1.0.20 checksum:836fa6a3e1e547f9a2c4040802ec865b5d85f4014efe00555d7090a3dcaa1090
 │       │       └── serde 1.0.192 checksum:bca2a08484b285dcb282d0f67b26cadc0df8b19f8c12502c13d966bf9482f001
-│       ├── platforms 3.3.0 checksum:626dec3cac7cc0e1577a2ec3fc496277ec2baa084bebad95bb6fdbfae235f84c
+│       ├── platforms 3.4.0 checksum:db23d408679286588f4d4644f965003d056e3dd5abcaaa938116871d7ce2fee7
 │       ├── fiat-crypto 0.2.7 checksum:c007b1ae3abe1cb6f85a16305acd418b7ca6343b953633fee2b76d8f108b830f
 │       ├── digest 0.10.7 checksum:9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292
 │       ├── curve25519-dalek-derive 0.1.1 checksum:f46882e17999c6cc590af592290432be3bce0428cb0d5f8b6715e4dc7b383eb3

@@ -37,7 +37,7 @@ git = "https://github.com/HashCash-Consultants/rs-soroban-env"
 package = "soroban-env-host"
 rev = "4c051aba140465905e6e559b94bea6165dd514b7"
 
-[dependencies.soroban-env-host-next]
+[dependencies.soroban-env-host-prev]
 optional = true
 version = "=20.1.1"
 git = "https://github.com/HashCash-Consultants/rs-soroban-env"
@@ -82,5 +82,6 @@ features = ["dependency-tree"]
 # This feature definition is implied by the optional=true line in the dep, but
 # writing it out in full here cross-checks that nobody _removed_ that line.
 [features]
+soroban-env-host-prev = ["dep:soroban-env-host-prev"]
 tracy = ["dep:tracy-client", "soroban-env-host-curr/tracy"]
 core-vnext = ["soroban-env-host-curr/next"]
